@@ -1,0 +1,157 @@
+"AddonInfo"
+{
+	"name" "DarkRP Customizable Weaponry"
+	"author_name" "author"
+	"info" "ATTENTION:PLEASE CONSIDER MAKING A CLEAN INSTALLATION OF GARRY'S MOD AND REPORT ANY FOUND BUGS.
+
+Ever wanted to customize your weapon with a whole ton of various weapon attachments like in Crysis? Well, now you can.
+
+If you want a crap ton more weapons that support even more attachments, download Extra Customizable Weaponry from one of the following links (UPDATE 1):
+https://mega.co.nz/#!Q1MD0AbJ!XBJGURKoWkwPzbuG4k1R5DUVjQMwdwQyWZXaaNP_wck
+http://www.solidfiles.com/d/5678d846b5/
+
+I can't upload ECW to workshop because of the filesize limit.
+Please make a clean installation of ECW every time an update for ECW is released.
+
+To install Extra Customizable Weaponry, simply extract the archive into your addons folder. Make sure there is no duplicate Extra Customizable Weaponry folder inside it.
+
+REQUIREMENTS:
+- Counter-Strike: Source mounted
+- A screen resolution of AT LEAST 1024x768
+- A decent computer
+
+FEATURES:
+- Ironsights
+- Dynamic accuracy
+- Dynamic recoil
+- Additional first-person effects: gunfire heat, gunfire smoke, etc.
+- Crosshair customization in the Q menu (Q > Utilities > Customizable Weaponry > Client)
+- Global weapon behaviour control for server admins in the Q menu (Q> Utilities > Customizable Weaponry > Admin)
+- Bullet chambering
+- Manual reload
+- Network-friendly
+- Quick grenades that have adjustable fuse time
+- Console variable that slightly changes the weapon's origins
+- Full compability with addons such as WAC, SCars, etc (or at least it should be that way)
+- Custom caliber types (5.56x45 NATO, 7.62x39, 7.62x51, etc)
+- Mouse wheel based zoom with sniper rifles
+- Damage is affected by distance
+- Custom viewmodel movement for standing still, walking, sprinting
+- Dynamic holdtype system - different hold types for aiming, sprinting and weapon holstering
+- Pistols use their dryfire animations
+- Near-wall
+- View drift from continuous fire
+- Additional 'recoil' effect for weapons with a stock to simulate the recoil transfering from the weapon to the player's head via the weapon stock
+- Holstering a weapon takes a bit of time
+- Physical bullets for SINGLEPLAYER
+- Surface penetration and bullet ricochet
+- View bobbing when reloading/drawing/attaching a suppressor to a weapon
+- Moving your mouse fast decreases your accuracy
+- Melee system
+- Weapon customization menu similar to that in Crysis
+- Players' hold type change based on what they are doing - aiming down the sights, sprinting, etc.
+- Various firemodes (full-auto, semi-auto, 3-round burst, 2-round burst)
+- Back-up sights for some weapons in the Extra pack
+	
+- Various other customizations in the Q menu (Q > Utilities > Customizable Weaponry):
+	* You can customize your crosshair
+	* You can turn off various parts of your crosshair
+	* You can toggle various effects for the SWEPs
+	* You can use different weapon origin positioning
+	* You can toggle a view bob effect when reloading (like in Battlefield: Bad Company 2 and the like)
+	* You can turn on a custom HUD ammo counter that contains the ammo amount, 40MM grenade amount and the firemode indicator compactly in one place
+	* You can turn on first-person death
+
+- Weapon customization:
+	* 7 Aim-assisting attachments:
+		- Ballistic 12x scope
+		- ACOG scope
+		- Aimpoint red-dot scope
+		- EOTech 557 holo-dot sight
+		- Kobra red-dot sight
+		- Rifle reflex sight
+		- Docter red-dot sight
+		
+	* M203:
+		- 3 Grenade types:
+			* HE 40MM Grenade (normal)
+			* CE 40MM Grenade (150% blast damage, 50% blast radius)
+			* Smoke 40MM Grenade
+			
+	* Bipods
+	* Vertical grips
+	* Beta C-Magazines
+	* Suppressors, which are toggleable on most weapons, excluding shotguns
+	* Laser sights
+	
+	- Ammo types:
+		- Hollow-point ammo
+		- Armor-piercing ammo
+		- Magnum ammo
+		- "Masher" ammo (special ammo for Model 627 in the "Extra" pack)
+		- Incendiary ammo
+		- Explosive ammo (ammo for shotguns)
+		- Slug ammo (ammo for shotguns)
+
+- Sprinting affects your weapon:
+	* Cannot initiate a reload while sprinting with a rifle/SMG
+	* Cannot fire while sprinting
+
+- Reload varies depending on how much ammo is left in the weapon:
+	* Reloading an empty weapon results in a longer reload
+	* Reloading a non-empty weapon results in a shorter reload
+	* Reloading a non-empty weapon leaves a single bullet in your weapon (chambered bullet) and moves the amount of ammo left in the mag to your ammo in reserve
+	
+CONTROLS:
+Primary attack key - fire
+Secondary attack key - use ironsights
+Walk key + reload key - attach suppressor (if possible)
+Use key + reload key - change firemode (if possible)
+Use key + primary attack key - melee
+Use key + secondary attack key - toggle between M203 and rifle modes (WHEN SWITCHED TO M203, TAKE AIM TO FIRE OUT A GRENADE)
+Walk key + primary attack key - quick grenade
+Walk key + secondary attack key - adjust quick grenade fuse time
+Context menu key (default is C) - open attachment selection menu. While in the menu press the numbers on your keyboard shown in the brackets to change attachments in that certain group.
+Double tap use key (WHILE AIMING DOWN THE SIGHTS) - toggle between current and back up sights
+Mouse wheel scroll while aiming down the sights of a Ballistic 12x scope - UP - increase magnification; DOWN - decrease magnification
+
+FAQ:
+Q: IS THIS BASED ON MAD COW'S WEAPON BASE??????
+A: No, this base is a very heavily modified default CS weapons that was back in GMod 12.
+
+Q: How do I attach an attachment to a weapon?
+A: Open your Q menu, and go to 'Entities'. Then, find a category called "Weapon Attachments".
+Spawn attachments from there, pick them up by looking at them and pressing your use key.
+After that, open up the weapon customization menu by pressing your CONTEXT MENU KEY and select the attachments you want by pressing the keys displayed in the brackets!
+Simple, isn't it?
+
+Q: I cannot see the attachments!
+A: Some addons conflict with this. As such, you will not be able to see attachments.
+
+Q: How can I increase my accuracy?
+A: You can: stop moving, crouch down, aim down the sights, fire in short controlled bursts.
+
+Q: How do I use the bipod?
+A: Attach it to a weapon, walk up to a waist-high wall obstacle and stand still. The bipod will become active if it's possible to use it.
+
+Q: I have 2 red dots when using various attachments.
+A: That's because you have another aim2 texture that's interfering with the new one.
+Search for aim2 and delete all of them (both the .vmts and .vtfs) that are not in the Customizable Weaponry folder.
+
+Q: I don't have any ammo in reserve for all weapons!
+A: Spawn the "Ammokit" SWEP in category "Throwable Weapons"
+
+Q: The ACOG scope has this reflection on it and I can barely see anything.
+A: You have another pair of ACOG model textures in your GMod folder somewhere, which are over-writing the current ACOG lense texture
+
+Credits (in order of help amount/relevance to project):
+MrBunneh (aka Tayley) - custom silencer texture, slightly changing the EoTech and Docter models to support the new holo-sight behavior, various model hacks, bodygrouping various weapon models in the Extra pack, various model recompiles, various texture edits, various textures, various weapons for the Extra pack, various ideas, beta testing
+Clavus - SWEP Construction Kit
+wystan - attachment models
+Kogitsune - giving me the ACOG render target code, being awesome and teaching me Lua since 2008.
+Kopimi - helping me out with the compability for SharpEye, WAC, etc.
+Marrub - various ideas, beta testing
+Mr. Bix (noobcake) - various ideas, beta testing
+SentryGunMan - bodygrouping Magpul Masada (Extra pack)
+Zira - AWP (Extra pack) model recompile"
+}
